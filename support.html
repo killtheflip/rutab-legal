@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soporte ¬∑ Ruta B</title>
+<meta name="description" content="Soporte y preguntas frecuentes de Ruta B, la app para preparar el examen te√≥rico de la licencia Clase B en Chile. Support and FAQ for Ruta B.">
+<style>
+:root{
+  --bg:#0D0F12;
+  --panel:#14161A;
+  --line:#22262D;
+  --ink:#F4F1EA;
+  --muted:#9A9AA3;
+  --amber:#E8B04B;
+  --amber-dim:#D2942F;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font:400 17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  padding:0 20px 72px;
+}
+.wrap{max-width:680px;margin:0 auto}
+
+header{padding:56px 0 8px;border-bottom:1px solid var(--line)}
+.mark{
+  display:inline-block;font-weight:700;font-size:15px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--amber);margin:0 0 14px;
+}
+h1{font-size:30px;line-height:1.2;margin:0 0 10px;font-weight:600;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 28px;font-size:16px}
+
+nav{display:flex;gap:8px;margin:0 0 -1px;padding:0}
+nav button{
+  appearance:none;background:transparent;border:1px solid var(--line);
+  border-bottom:none;color:var(--muted);font:inherit;font-size:14px;
+  padding:9px 18px;border-radius:8px 8px 0 0;cursor:pointer;min-height:44px;
+}
+nav button[aria-selected="true"]{background:var(--panel);color:var(--amber);border-color:var(--line)}
+nav button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+
+section[hidden]{display:none}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber-dim);
+   margin:40px 0 14px;font-weight:600}
+h3{font-size:17px;margin:26px 0 6px;font-weight:600}
+p{margin:0 0 14px;color:var(--ink)}
+p.answer{color:var(--muted)}
+a{color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(232,176,75,.35)}
+a:hover{border-bottom-color:var(--amber)}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  padding:22px 24px;margin:28px 0 8px;
+}
+.card p:last-child{margin-bottom:0}
+.email{font-size:19px;font-weight:600}
+
+footer{
+  margin-top:56px;padding-top:24px;border-top:1px solid var(--line);
+  color:var(--muted);font-size:14px;line-height:1.6;
+}
+footer p{color:var(--muted);font-size:14px}
+
+@media (max-width:480px){
+  body{font-size:16px}
+  h1{font-size:25px}
+  header{padding-top:40px}
+  .card{padding:18px 18px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="mark">Ruta B</p>
+  <h1>Soporte</h1>
+  <p class="sub">Licencia de conducir Clase B ¬∑ Chile</p>
+</header>
+
+<nav role="tablist" aria-label="Idioma / Language">
+  <button id="tab-es" role="tab" aria-selected="true" aria-controls="es">Espa√±ol</button>
+  <button id="tab-en" role="tab" aria-selected="false" aria-controls="en">English</button>
+</nav>
+
+<!-- ============================ ESPA√ëOL ============================ -->
+<section id="es" role="tabpanel" aria-labelledby="tab-es">
+
+  <h2>Contacto</h2>
+  <div class="card">
+    <p class="email"><a href="mailto:homillanopinas@icloud.com">homillanopinas@icloud.com</a></p>
+    <p>Escr√≠beme en espa√±ol o en ingl√©s. Respondo normalmente dentro de dos d√≠as h√°biles.</p>
+  </div>
+
+  <h2>Preguntas frecuentes</h2>
+
+  <h3>¬øC√≥mo cambio una pregunta al ingl√©s?</h3>
+  <p class="answer">Toca <strong>EN</strong> en cualquier pregunta para verla en ingl√©s, y t√≥calo otra vez para volver al espa√±ol. Las 196 se√±ales tambi√©n llevan su nombre en ambos idiomas.</p>
+
+  <h3>¬øFunciona sin conexi√≥n a internet?</h3>
+  <p class="answer">S√≠. Todo el contenido viene dentro de la aplicaci√≥n. No necesitas datos ni wifi para estudiar, ni para rendir el simulacro.</p>
+
+  <h3>¬øNecesito crear una cuenta?</h3>
+  <p class="answer">No. No hay registro, ni inicio de sesi√≥n, ni contrase√±as.</p>
+
+  <h3>¬øD√≥nde se guarda mi progreso?</h3>
+  <p class="answer">Solo en tu dispositivo. No se env√≠a a ning√∫n servidor y no lo puedo ver. Si desinstalas la aplicaci√≥n, el progreso se borra con ella.</p>
+
+  <h3>¬øEl simulacro es igual al examen real?</h3>
+  <p class="answer">Sigue el mismo formato: 35 preguntas en 45 minutos, con tres preguntas de doble puntaje (alcohol, velocidad y elementos de protecci√≥n) y el mismo umbral de aprobaci√≥n, 33 de 38 puntos. El reloj corre en tiempo real, as√≠ que cerrar la aplicaci√≥n no te da minutos extra.</p>
+
+  <h3>¬øEsta es la aplicaci√≥n oficial del examen?</h3>
+  <p class="answer">No. Ruta B es una aplicaci√≥n independiente. El examen oficial lo administra el municipio correspondiente, y los requisitos administrativos var√≠an seg√∫n la comuna.</p>
+
+  <h3>Encontr√© un error en una pregunta</h3>
+  <p class="answer">Escr√≠beme y lo corrijo. Ayuda mucho si incluyes el texto de la pregunta y la p√°gina del manual que aparece citada en la respuesta.</p>
+
+  <h3>¬øC√≥mo pido un reembolso?</h3>
+  <p class="answer">Los reembolsos los gestiona directamente la tienda donde compraste la aplicaci√≥n, no yo. En iPhone y iPad se solicitan en <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>¬øHay suscripci√≥n o publicidad?</h3>
+  <p class="answer">Ninguna de las dos. Es un pago √∫nico y no hay anuncios ni compras dentro de la aplicaci√≥n.</p>
+
+</section>
+
+<!-- ============================ ENGLISH ============================ -->
+<section id="en" role="tabpanel" aria-labelledby="tab-en" hidden>
+
+  <h2>Contact</h2>
+  <div class="card">
+    <p class="email"><a href="mailto:homillanopinas@icloud.com">homillanopinas@icloud.com</a></p>
+    <p>Write in English or Spanish. I normally reply within two working days.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <h3>How do I switch a question to English?</h3>
+  <p class="answer">Tap <strong>EN</strong> on any question to read it in English, and tap it again to return to Spanish. All 196 road signs carry their name in both languages too.</p>
+
+  <h3>Does it work offline?</h3>
+  <p class="answer">Yes. Everything ships inside the app. You need no data or wifi to study, or to sit the mock exam.</p>
+
+  <h3>Do I need an account?</h3>
+  <p class="answer">No. There is no sign-up, no login and no password.</p>
+
+  <h3>Where is my progress stored?</h3>
+  <p class="answer">On your device only. It is never sent to a server and I cannot see it. Deleting the app deletes the progress with it.</p>
+
+  <h3>Is the mock exam like the real one?</h3>
+  <p class="answer">It follows the same format: 35 questions in 45 minutes, including three double-weighted questions (alcohol, speed and protective equipment), and the real pass mark of 33 out of 38 points. The clock runs in real time, so closing the app buys you no extra minutes.</p>
+
+  <h3>Is this the official exam app?</h3>
+  <p class="answer">No. Ruta B is an independent app. The official exam is administered by your local municipality, and administrative requirements vary by comuna.</p>
+
+  <h3>I found a mistake in a question</h3>
+  <p class="answer">Email me and I will correct it. It helps a great deal if you include the question text and the manual page cited in the answer.</p>
+
+  <h3>How do I request a refund?</h3>
+  <p class="answer">Refunds are handled by the store you bought the app from, not by me. On iPhone and iPad, request one at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Is there a subscription or advertising?</h3>
+  <p class="answer">Neither. It is a one-time purchase with no ads and no in-app purchases.</p>
+
+</section>
+
+<footer>
+  <p>
+    Ruta B es una aplicaci√≥n independiente. No est√° afiliada ni respaldada por CONASET
+    ni por el Ministerio de Transportes y Telecomunicaciones. El contenido est√° basado
+    en el Manual de Conducci√≥n Clase B (CONASET, 2024), disponible gratuitamente en
+    <a href="https://mejoresconductores.conaset.cl">mejoresconductores.conaset.cl</a>
+  </p>
+  <p>
+    Ruta B is an independent app. It is not affiliated with or endorsed by CONASET or
+    Chile's Ministry of Transport and Telecommunications. Content is based on the
+    Manual de Conducci√≥n Clase B (CONASET, 2024), freely available at
+    <a href="https://mejoresconductores.conaset.cl">mejoresconductores.conaset.cl</a>
+  </p>
+  <p><a href="privacy.html">Pol√≠tica de privacidad ¬∑ Privacy policy</a></p>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var tabs = [document.getElementById('tab-es'), document.getElementById('tab-en')];
+  var panels = [document.getElementById('es'), document.getElementById('en')];
+
+  function show(i) {
+    tabs.forEach(function (t, n) { t.setAttribute('aria-selected', n === i ? 'true' : 'false'); });
+    panels.forEach(function (p, n) { p.hidden = n !== i; });
+  }
+
+  tabs.forEach(function (t, i) {
+    t.addEventListener('click', function () { show(i); });
+  });
+
+  // Open in English for browsers set to English; Spanish remains the default.
+  if ((navigator.language || '').slice(0, 2).toLowerCase() === 'en') show(1);
+})();
+</script>
+
+</body>
+</html>
